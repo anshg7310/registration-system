@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+}
+.error-txt {
+  width: 90%;
+  padding: 15px 10px;
+  background-color: rgb(253, 170, 170);
+  color: rgb(194, 0, 0);
+  text-align: center;
+  border-radius: 0.3rem;
+  display: none;
+}
+.wrapper {
+  max-width: 450px;
+  width: 100%;
+  margin-top: 100px;
+  min-height: 350px;
+  height: 100%;
+  background-color: #fff;
+  padding: 1.5rem 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 20px #797575;
+}
+.wrapper header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+header h1 {
+  font-size: 2.5rem;
+}
+.wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.wrapper form .field {
+  width: 90%;
+  height: 50px;
+}
+.wrapper form .field input {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: 0rem 0.5rem;
+  background-color: #f1f1f1;
+  border-radius: 0.3rem;
+}
+.btn {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  background-color: #4242ca;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.links p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.links p a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.links p a:hover {
+  text-decoration: underline;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container h2 {
+  font-weight: 400;
+  font-size: 19px;
+}
+.container h2 span {
+  font-size: 21px;
+  font-weight: 500;
+}
+.container div {
+  padding: 40px;
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 40%;
+}
+.btn-logout {
+  padding: 10px 20px;
+  background-color: #4242ca;
+  color: #fff;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  transform: translate(-100px, 20px);
+}
